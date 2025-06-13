@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri - Göktürk Akademi S.K.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #333;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .gallery-item {
+      background-color: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .caption {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Göktürk Akademi S.K. - Galeri</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="duyurular.html">Duyurular</a>
+    <a href="antrenman.html">Antrenman Programı</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="iletisim.html">İletişim</a>
+  </nav>
+
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2025-06-12 at 09.34.10.jpeg" alt="Adana karate turnuvası">
+      <div class="caption">Adana iller arası karate turnuvası klasman birinciliği</div>
+    </div>
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2025-06-12 at 09.34.10 (2).jpeg" alt="Şubat ayı kuşak sınavı">
+      <div class="caption">Şubat ayı kuşak sınavımız</div>
+    </div>
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2025-06-12 at 09.34.10 (1).jpeg" alt="Antakya gençlik kupası">
+      <div class="caption">Antakya ilçesi gençlik kupası karate turnuvası bayanlar klasman birinciliği</div>
+    </div>
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2025-06-13 at 15.39.27.jpeg" alt="Türkiye Şampiyonası Kocaeli">
+      <div class="caption">Sporcularımız Türkiye Karate Şampiyonası için Kocaeli'de</div>
+    </div>
+  </div>
+</body>
+</html>

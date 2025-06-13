@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ana Sayfa - Göktürk Akademi S.K.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #000000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #000000;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #009fe3;
+    }
+
+    .main-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .section-link {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .section-link:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .section-link h2 {
+      color: #009fe3;
+      margin-bottom: 10px;
+    }
+
+    .section-link p {
+      font-size: 15px;
+      margin-top: 10px;
+    }
+
+    .logo-above {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .logo-above img {
+      height: 120px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Göktürk Akademi Spor Kulübü</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="duyurular.html">Duyurular</a>
+    <a href="antrenman.html">Antrenman Programı</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="iletisim.html">İletişim</a>
+  </nav>
+
+  <!-- Logo sadece kutuların üstüne -->
+  <div class="logo-above">
+    <img src="logo.jpg" alt="Kulüp Logosu">
+  </div>
+
+  <div class="main-content">
+    <a href="duyurular.html" class="section-link">
+      <h2>Duyurular</h2>
+      <p>Turnuva, sınav ve etkinlik duyuruları burada.</p>
+    </a>
+
+    <a href="antrenman.html" class="section-link">
+      <h2>Antrenman Programı</h2>
+      <p>Antrenman günleri ve saatlerine göz atın.</p>
+    </a>
+
+    <a href="hakkimizda.html" class="section-link">
+      <h2>Hakkımızda</h2>
+      <p>Göktürk Akademi S.K. hakkında bilgi edinin.</p>
+    </a>
+
+    <a href="galeri.html" class="section-link">
+      <h2>Galeri</h2>
+      <p>Etkinliklerimizden kareler burada yer alır.</p>
+    </a>
+
+    <a href="iletisim.html" class="section-link">
+      <h2>İletişim</h2>
+      <p>Bize ulaşmak için tıklayın.</p>
+    </a>
+  </div>
+</body>
+</html>
