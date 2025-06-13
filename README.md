@@ -1,1 +1,1 @@
-# g-kt-rkakademis.k
+# gokturkakademis.k
